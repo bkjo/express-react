@@ -1,3 +1,36 @@
-.bookList span{
-    margin-right: 10px; 
+.bookcolumn{
+    display: flex;
+    width: 30%;
+}
+
+.bookcolumn.book-content:hover{
+    color: #3300CC;
+}
+.booklist .book-value{
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bookline{
+    width: 30%;
+    border: 1px solid #000;
+}
+
+.addbook{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.addbook .input-container{
+    display: flex;
+}
+.addbook .caption{
+    width: 20%;
+}
+
+.addbook .addbtn{
+    width: 50px;
+    align-self: flex-end;
+    /* margin-right: 40px; */
 }

@@ -1,0 +1,67 @@
+#modal-wrap{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.4);
+    /* z-index: 1000; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.modal-close{
+    /* color: #fff; */
+    cursor: pointer;
+}
+
+.book.modal-container{
+    z-index: 10;
+    width: 500px;
+    /* height: 500px; */
+    height: calc(50% - 300px);
+    border: 1px solid #000;
+    background-color: #FFFFCC;
+    box-shadow: 0 0 10px rgba(#000, 0.7);
+    border-radius: 4px;
+    /* position: fixed; */
+    position: absolute;
+    top: 100px;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.modal-body{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal-body .content-container{
+    display: flex;
+}
+.content-container input{
+    margin-left: 10px;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+}
+.modal-footer button{
+    margin-left: 10px;
+}
+.modal-footer button:hover{
+    cursor: pointer;
+}
